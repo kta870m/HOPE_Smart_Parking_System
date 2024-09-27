@@ -1,0 +1,70 @@
+.outer{
+    width: 40px;
+    height: 30px;
+    margin: auto;
+}
+.dot1 , .dot3, .dot2{
+  background-color: #f1bc2a;
+  width: 10px;
+  height: 10px;
+  border-radius: 4px;
+}
+.dot1{
+  margin-right: 5px;
+  animation: bounce1 0.8s infinite;
+}
+.dot2{
+  animation: bounce2 0.8s infinite;
+}
+.dot3{
+  margin-left: 5px;
+  animation: bounce3 0.8s infinite;
+}
+@keyframes bounce1 {
+  0% {
+    margin-top: 10px;
+  }
+  20% {
+    margin-top: 0px;
+  }
+  40% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: 10px;
+  }
+}
+@keyframes bounce2 {
+  0% {
+    margin-top: 10px;
+  }
+  20% {
+    margin-top: 10px;
+  }
+  40% {
+    margin-top: 0px;
+  }
+  60% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: 10px;
+  }
+}
+@keyframes bounce3 {
+  0% {
+    margin-top: 10px;
+  }
+  40% {
+    margin-top: 10px;
+  }
+  60% {
+    margin-top: 0px;
+  }
+  80% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: 10px;
+  }
+}

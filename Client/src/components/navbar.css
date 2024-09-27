@@ -1,0 +1,33 @@
+.navbar{
+    margin-top: 5px;
+}
+.searchbar{
+    position: absolute;
+    right: 10px;
+    top: 6px;
+}
+.logo{
+    position: absolute;
+    top: 6px;
+    left: 10px;
+}
+.logo:hover{
+    filter: drop-shadow(0 0 1.5em #f4c02d);
+  }
+.logotext{
+    font-size: 27px;
+    display: block;
+}
+.logoimage{
+    height: 25px;
+    animation: roll 4s linear infinite;
+}
+
+@keyframes roll {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

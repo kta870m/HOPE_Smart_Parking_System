@@ -1,0 +1,11 @@
+.chatbotinput{
+    position: absolute;
+    width: 575px;
+    bottom: 16px;
+}
+.gradienttext{
+    background: -webkit-linear-gradient(16deg,#f1bc2a,green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}

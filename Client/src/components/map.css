@@ -1,0 +1,15 @@
+.mappanel{
+    width: 100%;
+    height: 400px;
+
+}
+.marker{
+    filter: hue-rotate(60deg) brightness(110%) saturate(200%);
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: black; /* Adjust opacity as needed */
+    /*mix-blend-mode: multiply;
+    z-index: 9999;*/
+}

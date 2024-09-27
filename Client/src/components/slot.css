@@ -1,0 +1,21 @@
+.follow{
+    float: right;
+}
+.flex{
+    display: "flexbox";
+    width: 100%;
+    margin-bottom: 10px;
+}
+.hiddeninput{
+    position: relative;
+    width: 80px;
+    height: 40px;
+    right: 0px;
+}
+.cardtype{
+    height: 50px;
+    margin: auto;
+}
+.formrow{
+    margin-bottom: 15px;
+}

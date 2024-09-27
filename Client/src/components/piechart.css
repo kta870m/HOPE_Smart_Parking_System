@@ -1,0 +1,66 @@
+.circle-container {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .circle{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 174px;
+    height: 174px;
+    border-radius: 100%;
+    background-color: green;
+  }
+  .svgcircle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .innercircle1{
+    background-color: black;
+    border-radius: 100%;
+    position: absolute;
+    top: 34px;
+    left: 34px;
+    width: 106px;
+    height: 106px;
+  }
+  .innercircle2{
+    background-color: black;
+    border-radius: 100%;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 100px;
+    height: 100px;
+  }
+  .partial-circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: transparent;
+    stroke: #f1bc2a;
+    stroke-width: 100;
+    stroke-dasharray: 0, 1000;
+    animation: fillCircle 1s linear forwards;
+  }
+  .numslot{
+    width: fit-content;
+    margin: auto;
+    margin-top: 24px;
+  }
+  @keyframes fillCircle {
+    0% {
+        stroke-dasharray: 0, 1000;
+    }
+    100% {
+        stroke-dasharray: 163, 1000;
+    }
+  }

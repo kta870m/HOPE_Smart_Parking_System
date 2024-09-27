@@ -1,0 +1,23 @@
+.separator{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.sidecontent{
+    margin-bottom: 20px;
+}
+.centercontent{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.apost{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+.bigavatar{
+    width: 100px;
+    height: 100px;
+}
+.line{
+    margin-bottom: 5px;
+}

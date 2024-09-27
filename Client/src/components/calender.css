@@ -1,0 +1,11 @@
+.timebadge{
+    width: 100%;
+    text-align: center;
+}
+.day{
+    padding-top: 5px;
+    overflow: hidden;
+}
+.day:hover{
+    background-color: #1f1f1f;
+}
